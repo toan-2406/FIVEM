@@ -1,0 +1,23 @@
+/* 
+    Made by @screenshake
+    linkedin.com/in/saranshsinha
+    https://codepen.io/saransh/pen/BKJun
+*/
+html {
+    height: 100%;
+    /* background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%); */
+    /* background: radial-gradient(circle, rgb(52, 41, 95) 3%, rgb(7, 19, 37) 93%); */
+    /* background: radial-gradient(ellipse at bottom, rgb(52, 41, 95) 3%, rgb(7, 19, 37) 93%); */
+    background: radial-gradient(ellipse at bottom, rgb(9, 9, 9) 3%, rgb(16, 32, 57) 93%);
+    overflow: hidden;
+}
+
+
+@keyframes animStar {
+    from {
+        transform: translateY(0px);
+    }
+    to {
+        transform: translateY(-2000px);
+    }
+}

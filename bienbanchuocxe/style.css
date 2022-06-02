@@ -1,0 +1,233 @@
+
+#cursor {
+    position: absolute;
+    z-index: 999999;
+	display: none;
+}
+
+#exit {
+	position: absolute;
+	top: 15px;
+	right: 17px;
+	z-index: 999;
+	color: rgb(6, 6, 6);
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#impound-form, #retrieve-form, #admin-terminal {
+	overflow: hidden;
+    width: 50%;
+	height: 95%;
+    position: absolute;
+	top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 20px;
+    background-color: #efefef;
+	border-radius: 4px;
+}
+#impound-form > * ~ *{
+	margin-top: 12px;
+}
+
+#impound-form {
+	display: block;
+}
+#impound-form h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+#impound-form #veh-info {
+	display: flex;
+	justify-content: space-between;
+	margin-top: -5px;
+	margin-bottom: -5px;
+}
+
+#impound-form #veh-info * {
+	font-weight: bold;
+}
+#impound-form .action-group {
+	display: flex;
+	justify-content: space-between;
+}
+#impound-form #actions {
+		display: flex;
+		margin-top: 10px;
+}
+
+.form-group label span{
+	color: #d81e1e;
+}
+
+.form-control {
+	max-width: 100%;
+	width: 100%;
+	border: solid 1px gray;
+	border-radius: 4px;
+	min-height: 40px;
+	margin-bottom: 5px;
+	padding: 10px 5px;
+	justify-self: flex-end;
+}
+.info .impound-info{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.info .impound-info label{
+	width:auto;
+}
+.info .impound-info label span{
+	color: #d81e1e;
+}
+.info .impound-info input{
+	width:50%;
+}
+.info .impound-info .duration{
+	display: flex;
+	justify-content: space-between;
+	width: 49.5%;
+}
+
+.impound-info .duration .form-control {
+	width: calc(100% /3 - 5px);
+}
+
+#names label {
+
+	display: inline-block;
+}
+
+#impound-form #officer, #impound-form #mechanic, #impound-form #duration {
+	width: calc(50% - 5px);
+	display: inline-block;
+}
+
+
+#duration-row label {
+	width: 50%;
+	display: inline-block;
+}
+
+#impound-form #fee-row label, #fee {
+	display: inline-block;
+	width: calc(50% - 3px);
+}
+
+#impound-form #fee {
+	margin-left: 2px;
+	margin-right: -2px;
+}
+
+#impound-form #errors{
+	color: red;
+	display: block;
+	width: 100%;
+	list-style-type: disc;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+#impound-form .action-group .action-ask .checkbox{
+	margin-top: 8px;
+}
+/* Retrieve form */
+#retrieve-form {
+	display: none;
+	/* display: block; */
+}
+
+#admin-terminal {
+	display: none;
+	/* display: block; */
+
+}
+#retrieve-form h1, #admin-terminal h1{
+	font-size: 1.2rem;
+	font-weight: bold;
+}
+/* Global */
+h1 {
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+#retrieve-form td:last-of-type {
+	text-align: right;
+}
+
+table .btn {
+	padding: 10px 20px;
+}
+
+.scrollable {
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+table tbody {
+	height: fit-content;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+	padding: 5px 0 !important;
+}
+
+.btn {
+	padding: 10px 35px;
+	background-color: #4286f4;
+	border-radius: 4px;
+	border: none;
+	color: white;
+	font-size: 1rem;
+	font-weight: bold;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.btn[disabled] {
+	opacity: 0.7;
+}
+textarea{
+	margin-top: 10px;
+}
+.success {
+	background-color: #29b152;
+}
+
+.cancel {
+	background-color: #bd3e3e;
+}
+
+.mr {
+	margin-right: 5px;
+}
+
+.ml {
+	margin-left: 5px;
+}
+
+
+.error {
+	color: #d81e1e;
+	display: block;
+	font-weight: bold;
+}
