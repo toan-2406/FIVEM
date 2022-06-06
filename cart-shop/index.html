@@ -7,6 +7,10 @@
 <link rel="stylesheet" href="./style.css">
 <link rel="stylesheet" href="./reset.css">
 
+<!-- Link Swiper's CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+
 </head>
 
 <body>
@@ -17,9 +21,9 @@
     </div>
   </div>
   <div id="wrapper">
-    
+
     <div class="container ">
-      
+
       <div class="category">
         <ul class="category__list">
           <li class="category__item active">
@@ -34,9 +38,8 @@
         </ul>
       </div>
       <div class="cart-wrapper">
-        <div class="cart-wrapper__header">
+        <!-- <div class="cart-wrapper__header">
           <div class="drop-down">
-            <!-- <label for="items">Sắp xếp theo:</label> -->
             <select name="sort" id="items">
               <option value="All">Hiển thị tất cả</option>
               <option value="news">Mới nhất</option>
@@ -47,10 +50,384 @@
           <div id="close">
             X
           </div>
-        </div>
+        </div> -->
         <div id="wrapper-list" class="cart-wrapper__list">
-          <div data-id="1" class="tab-content active">
+          <div data-id="1" class="tab-content active tab-content__homepage">
+           <div class="banner">
+            <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://i.ytimg.com/vi/6ZRobsXKpw8/maxresdefault.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://i.ytimg.com/vi/77S2ZV7fYBk/maxresdefault.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://img.gurugamer.com/resize/740x-/2021/06/21/m416-attachments-min-1782.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://www.digitaltrends.com/wp-content/uploads/2021/07/gta-online-ls-car-meet.jpg?p=1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://i.ytimg.com/vi/reUSEsw4fgw/maxresdefault.jpg" />
+                </div>
 
+              </div>
+              <!-- <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div> -->
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="https://i.ytimg.com/vi/6ZRobsXKpw8/maxresdefault.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://i.ytimg.com/vi/77S2ZV7fYBk/maxresdefault.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://img.gurugamer.com/resize/740x-/2021/06/21/m416-attachments-min-1782.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://www.digitaltrends.com/wp-content/uploads/2021/07/gta-online-ls-car-meet.jpg?p=1" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="https://i.ytimg.com/vi/reUSEsw4fgw/maxresdefault.jpg" />
+                </div>
+              </div>
+            </div>
+           </div>
+           <div class="new-product" style="height: 100%; width: 100%;">
+              <div class="title">
+                <h2>Sản phẩm mới</h2>
+              </div>
+              <div class="cart-wrapper__item">
+                <div class="cart-wrapper__img">
+                  <div class="cart-wapper__infos">
+                    <div class="cart-wapper__infos--info" title="máu">
+                      <div class="info-icon"><img src="./assets/icon/heart.png"></div>
+                      <div class="info-text">
+                        <p>
+                          100%
+                        </p>
+                      </div>
+  
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          350 giáp
+                        </p>
+                      </div>
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          213 giáp
+                        </p>
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="item-img">
+                    <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
+                    <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
+                      class="triagle">
+                  </div>
+                  <div class="cart-info">
+                    <p class="name">
+                      <span>AK 47</span>
+                    </p>
+                    <p class="price">
+                      <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
+                    </p>
+  
+                  </div>
+                </div>
+                <div class="cart-wrapper__action">
+                  <div class="icon"><img src="./assets/icon/cart.png"></div>
+                  <button class="btn btn-buy">Buy now</button>
+                </div>
+              </div>
+              <div class="cart-wrapper__item">
+                <div class="cart-wrapper__img">
+                  <div class="cart-wapper__infos">
+                    <div class="cart-wapper__infos--info" title="máu">
+                      <div class="info-icon"><img src="./assets/icon/heart.png"></div>
+                      <div class="info-text">
+                        <p>
+                          100%
+                        </p>
+                      </div>
+  
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          350 giáp
+                        </p>
+                      </div>
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          213 giáp
+                        </p>
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="item-img">
+                    <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
+                    <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
+                      class="triagle">
+                  </div>
+                  <div class="cart-info">
+                    <p class="name">
+                      <span>AK 47</span>
+                    </p>
+                    <p class="price">
+                      <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
+                    </p>
+  
+                  </div>
+                </div>
+                <div class="cart-wrapper__action">
+                  <div class="icon"><img src="./assets/icon/cart.png"></div>
+                  <button class="btn btn-buy">Buy now</button>
+                </div>
+              </div>
+              <div class="cart-wrapper__item">
+                <div class="cart-wrapper__img">
+                  <div class="cart-wapper__infos">
+                    <div class="cart-wapper__infos--info" title="máu">
+                      <div class="info-icon"><img src="./assets/icon/heart.png"></div>
+                      <div class="info-text">
+                        <p>
+                          100%
+                        </p>
+                      </div>
+  
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          350 giáp
+                        </p>
+                      </div>
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          213 giáp
+                        </p>
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="item-img">
+                    <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
+                    <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
+                      class="triagle">
+                  </div>
+                  <div class="cart-info">
+                    <p class="name">
+                      <span>AK 47</span>
+                    </p>
+                    <p class="price">
+                      <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
+                    </p>
+  
+                  </div>
+                </div>
+                <div class="cart-wrapper__action">
+                  <div class="icon"><img src="./assets/icon/cart.png"></div>
+                  <button class="btn btn-buy">Buy now</button>
+                </div>
+              </div>
+              <div class="cart-wrapper__item">
+                <div class="cart-wrapper__img">
+                  <div class="cart-wapper__infos">
+                    <div class="cart-wapper__infos--info" title="máu">
+                      <div class="info-icon"><img src="./assets/icon/heart.png"></div>
+                      <div class="info-text">
+                        <p>
+                          100%
+                        </p>
+                      </div>
+  
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          350 giáp
+                        </p>
+                      </div>
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          213 giáp
+                        </p>
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="item-img">
+                    <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
+                    <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
+                      class="triagle">
+                  </div>
+                  <div class="cart-info">
+                    <p class="name">
+                      <span>AK 47</span>
+                    </p>
+                    <p class="price">
+                      <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
+                    </p>
+  
+                  </div>
+                </div>
+                <div class="cart-wrapper__action">
+                  <div class="icon"><img src="./assets/icon/cart.png"></div>
+                  <button class="btn btn-buy">Buy now</button>
+                </div>
+              </div>
+              <div class="cart-wrapper__item">
+                <div class="cart-wrapper__img">
+                  <div class="cart-wapper__infos">
+                    <div class="cart-wapper__infos--info" title="máu">
+                      <div class="info-icon"><img src="./assets/icon/heart.png"></div>
+                      <div class="info-text">
+                        <p>
+                          100%
+                        </p>
+                      </div>
+  
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          350 giáp
+                        </p>
+                      </div>
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          213 giáp
+                        </p>
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="item-img">
+                    <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
+                    <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
+                      class="triagle">
+                  </div>
+                  <div class="cart-info">
+                    <p class="name">
+                      <span>AK 47</span>
+                    </p>
+                    <p class="price">
+                      <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
+                    </p>
+  
+                  </div>
+                </div>
+                <div class="cart-wrapper__action">
+                  <div class="icon"><img src="./assets/icon/cart.png"></div>
+                  <button class="btn btn-buy">Buy now</button>
+                </div>
+              </div>
+              <div class="cart-wrapper__item">
+                <div class="cart-wrapper__img">
+                  <div class="cart-wapper__infos">
+                    <div class="cart-wapper__infos--info" title="máu">
+                      <div class="info-icon"><img src="./assets/icon/heart.png"></div>
+                      <div class="info-text">
+                        <p>
+                          100%
+                        </p>
+                      </div>
+  
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          350 giáp
+                        </p>
+                      </div>
+                    </div>
+                    <div class="cart-wapper__infos--info" title="giáp">
+                      <div class="info-icon">
+                        <img src="./assets/icon/armor.png">
+                      </div>
+                      <div class="info-text">
+                        <p>
+                          213 giáp
+                        </p>
+                      </div>
+                    </div>
+  
+                  </div>
+                  <div class="item-img">
+                    <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
+                    <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
+                      class="triagle">
+                  </div>
+                  <div class="cart-info">
+                    <p class="name">
+                      <span>AK 47</span>
+                    </p>
+                    <p class="price">
+                      <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
+                    </p>
+  
+                  </div>
+                </div>
+                <div class="cart-wrapper__action">
+                  <div class="icon"><img src="./assets/icon/cart.png"></div>
+                  <button class="btn btn-buy">Buy now</button>
+                </div>
+              </div>
+          </div>
+          <div class="featured" style="height: 100%; width: 100%; background-color:#fff"></div>
+          </div>
+          <div data-id="2" class="tab-content">
             <div class="cart-wrapper__item">
               <div class="cart-wrapper__img">
                 <div class="cart-wapper__infos">
@@ -1023,495 +1400,6 @@
                 <button class="btn btn-buy">Buy now</button>
               </div>
             </div>
-          </div>
-          <div data-id="2" class="tab-content">
-
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
-            <div class="cart-wrapper__item">
-              <div class="cart-wrapper__img">
-                <div class="cart-wapper__infos">
-                  <div class="cart-wapper__infos--info" title="máu">
-                    <div class="info-icon"><img src="./assets/icon/heart.png"></div>
-                    <div class="info-text">
-                      <p>
-                        100%
-                      </p>
-                    </div>
-
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        350 giáp
-                      </p>
-                    </div>
-                  </div>
-                  <div class="cart-wapper__infos--info" title="giáp">
-                    <div class="info-icon">
-                      <img src="./assets/icon/armor.png">
-                    </div>
-                    <div class="info-text">
-                      <p>
-                        213 giáp
-                      </p>
-                    </div>
-                  </div>
-
-                </div>
-                <div class="item-img">
-                  <img class="img" src="https://i.pinimg.com/originals/b2/99/25/b299251b53a704122bb8e92172f9d719.png">
-                  <img src="https://i.pinimg.com/originals/5d/6e/19/5d6e197fee26db8d1de1a28680acbeb4.png"
-                    class="triagle">
-                </div>
-                <div class="cart-info">
-                  <p class="name">
-                    <span>AK 47</span>
-                  </p>
-                  <p class="price">
-                    <img src="https://cdn-icons-png.flaticon.com/512/272/272525.png"><span>100.000</span>
-                  </p>
-
-                </div>
-              </div>
-              <div class="cart-wrapper__action">
-                <div class="icon"><img src="./assets/icon/cart.png"></div>
-                <button class="btn btn-buy">Buy now</button>
-              </div>
-            </div>
 
           </div>
           <div data-id="3" class="tab-content">
@@ -2001,7 +1889,8 @@
                 <div class="icon"><img src="./assets/icon/cart.png"></div>
                 <button class="btn btn-buy">Buy now</button>
               </div>
-            </div><div class="cart-wrapper__item">
+            </div>
+            <div class="cart-wrapper__item">
               <div class="cart-wrapper__img">
                 <div class="cart-wapper__infos">
                   <div class="cart-wapper__infos--info" title="máu">
@@ -2496,7 +2385,30 @@
   <!-- End popup table -->
   <!-- Script js -->
   <script src="./app.js"></script>
+  <!-- Swiper JS -->
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
+  <script>
+    //Swipper
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      loop: true,
+      spaceBetween: 10,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+      thumbs: {
+        swiper: swiper,
+      },
+    });
+  </script>
 </body>
 
 </html>

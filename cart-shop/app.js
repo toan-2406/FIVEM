@@ -58,3 +58,4 @@ ItemElms.forEach((item,index) => {
 Exitbtn.addEventListener("click", function () {
     WrapperElm.classList.add("close");
 })
+
